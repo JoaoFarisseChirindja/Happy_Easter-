@@ -1,0 +1,84 @@
+@import url('http://fonts.googleapis.com/css?family=Indie Flower'); 
+
+body {
+    color: #3399ff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-shadow: 2px 2px #004080;
+    font: italic bold 50px/30px 'Indie Flower', serif;
+}
+
+.line {
+    position:absolute;
+    bottom:0px;
+    right:0%;
+}
+
+.horizontal {
+    background-color: YellowGreen;
+    width: 100%;
+    height: 20%;
+}
+
+#myCanvas {
+     
+    width: 100%;
+    position:absolute; 
+    bottom:50px;
+    right:0%;
+    
+}
+
+
+.bunny {
+    width: 100%;
+    position:absolute; 
+    bottom:0px;
+    right:0%;
+}
+
+.egg {
+    width: 8%;
+    height: 10%;
+    position:absolute; 
+    bottom:15%  
+}
+
+#egg1 {
+    background: linear-gradient(
+        to bottom,
+        #b3f0ff,
+        #b3f0ff 50%,
+        #00ccff 50%,
+        #00ccff
+    );
+    background-size: 100% 20%;
+    display: block;
+    -webkit-border-radius: 63px 63px 63px 
+    63px / 108px 108px 72px 72px;
+    border-radius:         50%  50%  50%  
+    50%  / 60%   60%   40%  40%;
+
+    right:80%;
+    
+}
+
+#egg2 {
+    background: linear-gradient(
+        to bottom,
+        #ff0066,
+        #ff0066 50%,
+        #ffb3d1 50%,
+        #ffb3d1
+    );
+    background-size: 100% 20%;
+    display: block;
+    -webkit-border-radius: 63px 63px 63px 
+    63px / 108px 108px 72px 72px;
+    border-radius:         50%  50%  50%  
+    50%  / 60%   60%   40%  40%;
+
+    right:10%;
+    
+}
